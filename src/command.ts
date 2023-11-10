@@ -427,7 +427,7 @@ class VersionCommand extends Command {
                     })]
             });
         } else {
-            m.channel.send(`Server is offline, but the last time the server was online the version was ${data.lastValidData ? data.lastValidData?.version : "unkown"}`);
+            m.channel.send(`Server is offline, but the last time the server was online the version was ${data.lastValidData ? data.lastValidData.version : "unkown"}`);
         }
     }
 }
